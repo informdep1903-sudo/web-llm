@@ -1,20 +1,27 @@
+/* Основные стили для тела страницы */
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background: #f4f4f4;
+  font-family: Arial, sans-serif;  /* Установка шрифта без засечек */
+  margin: 40px;                    /* Внешний отступ от краев экрана */
+  background: #f4f4f4;             /* Светло-серый фон страницы */
 }
+
+/* Стили для текстового поля ввода */
 textarea {
-  width: 90vw;
-  min-height: 100px;
-  margin-bottom: 10px;
+  width: 90vw;                     /* Ширина 90% от ширины viewport */
+  min-height: 100px;               /* Минимальная высота поля */
+  margin-bottom: 10px;             /* Отступ снизу для разделения элементов */
 }
+
+/* Стили для кнопки отправки */
 button {
-  padding: 8px 16px;
+  padding: 8px 16px;               /* Внутренние отступы для удобства нажатия */
 }
+
+/* Стили для блока с ответом AI */
 #response {
-  margin-top: 20px;
-  padding: 10px;
-  background: #e0e7ff;
-  border-radius: 4px;
-  min-height: 40px;
+  margin-top: 20px;                /* Отступ сверху от других элементов */
+  padding: 10px;                   /* Внутренние отступы для текста */
+  background: #e0e7ff;             /* Светло-голубой фон для выделения ответа */
+  border-radius: 4px;              /* Скругление углов блока */
+  min-height: 40px;                /* Минимальная высота блока */
 }
